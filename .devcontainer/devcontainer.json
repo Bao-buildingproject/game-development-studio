@@ -1,0 +1,7 @@
+{
+  "name": "IT LEARNS: THE HUNT",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [2567],
+  "portsAttributes": { "2567": { "label": "IT LEARNS (game + server)", "onAutoForward": "openBrowser" } }
+}
